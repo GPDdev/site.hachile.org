@@ -1,6 +1,6 @@
 # The Hachile Project
 
-<div align="center"><img alt="Checks: browser verified" src="https://img.shields.io/badge/checks-browser%20verified-blue"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green"><img alt="Version: 1.10.16" src="https://img.shields.io/badge/version-1.10.16-lightgrey"><img alt="Language: HTML and CSS" src="https://img.shields.io/badge/language-HTML%20%2F%20CSS-orange"></div>
+<div align="center"><img alt="Checks: browser verified" src="https://img.shields.io/badge/checks-browser%20verified-blue"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green"><img alt="Version: 1.10.17" src="https://img.shields.io/badge/version-1.10.17-lightgrey"><img alt="Language: HTML and CSS" src="https://img.shields.io/badge/language-HTML%20%2F%20CSS-orange"></div>
 
 [访问网站](https://site.hachile.org/)
 
