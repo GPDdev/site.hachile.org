@@ -3,89 +3,114 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f3f1eb">
-  <meta name="description" content="The Hachile Project：汇集 Hachile 站群的介绍、访问入口和更新日志。">
+  <meta name="theme-color" content="#f5f2e9">
+  <meta name="description" content="The Hachile Project，Hachile 的站点总览。沿着树的分枝，找到个人主页、创作、项目、社群和旧日档案。">
+  <meta property="og:title" content="The Hachile Project">
+  <meta property="og:description" content="散落在网络里的身份、创作和朋友，在这里相连。">
+  <meta property="og:url" content="https://site.hachile.org/">
+  <meta property="og:type" content="website">
   <link rel="canonical" href="https://site.hachile.org/">
+  <link rel="icon" href="./assets/leaf.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./style.css">
-  <title>The Hachile Project · 站点总览</title>
+  <title>The Hachile Project</title>
 </head>
 <body>
   <a class="skip-link" href="#main">跳到主要内容</a>
   <header class="site-header wrap">
-    <a class="brand" href="https://hachile.org/" aria-label="返回 Hachile Portal"><span class="brand-mark" aria-hidden="true">H<span>·</span></span><span>THE HACHILE<br>PROJECT</span></a>
-    <nav aria-label="页面导航"><a href="#directory">站点目录</a><a href="#changelog">更新日志</a><a class="nav-home" href="https://home.hachile.org/">个人主页 <span aria-hidden="true">↗</span></a></nav>
+    <a class="brand" href="https://hachile.org/" aria-label="Hachile，返回门户"><img src="./assets/leaf.svg" width="28" height="34" alt=""><span>Hachile</span></a>
+    <nav aria-label="页面导航"><a href="#directory">枝叶<span>站点</span></a><a href="#purpose">根<span>宗旨</span></a><a href="#changelog">年轮<span>记录</span></a></nav>
+    <a class="header-home" href="https://home.hachile.org/">来认识我 <span aria-hidden="true">↗</span></a>
   </header>
 
   <main id="main">
     <section class="hero wrap" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> A NETWORK OF SMALL WORLDS</p>
-        <h1 id="hero-title">The<br><em>Hachile</em><br>Project<span class="period">.</span></h1>
-        <p class="hero-description">一个名字，许多不同的入口。这里是 Hachile 站群的索引：从个人履历与研究，到博客、开发、社群和兴趣世界。</p>
-        <div class="hero-actions"><a class="button button-primary" href="#directory">探索站点 <span aria-hidden="true">↘</span></a><a class="button button-outline" href="#changelog">阅读更新日志</a></div>
+        <p class="eyebrow">一个人的网络，一棵生长中的树</p>
+        <h1 id="hero-title"><span>The</span>Hachile<br><em>Project</em></h1>
+        <p class="hero-description">个人主页、创作、项目与社群。<br>Hachile 是它们共同的名字。</p>
+        <a class="text-link" href="#directory">沿着枝叶走走 <span aria-hidden="true">↓</span></a>
+        <p class="hero-note">我在不同地方使用不同的名字。<br>你可以从这里，找到它们。</p>
       </div>
-      <div class="hero-visual" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div><div class="visual-core">H<span>·</span></div><span class="satellite satellite-one">BLOG</span><span class="satellite satellite-two">SKY</span><span class="satellite satellite-three">DEV</span><span class="satellite satellite-four">HOME</span></div>
-      <div class="hero-foot"><span>EST. 2026</span><span>site.hachile.org · 同一个 Hachile</span><span>SCROLL TO EXPLORE ↓</span></div>
+      <figure class="tree-figure">
+        <img class="tree-art" src="./assets/hachile-tree.svg" width="760" height="720" alt="" fetchpriority="high">
+        <a class="tree-link tree-link-about" href="#branch-about"><span>01</span>认识我</a>
+        <a class="tree-link tree-link-work" href="#branch-work"><span>02</span>创作与项目</a>
+        <a class="tree-link tree-link-community" href="#branch-community"><span>03</span>社群与兴趣</a>
+        <a class="tree-link tree-link-archive" href="#branch-archive"><span>04</span>专题与档案</a>
+        <figcaption><span>Hachile，2026 年栽下</span><span>点击枝头的文字，找到一个去处</span></figcaption>
+      </figure>
     </section>
 
-    <section class="purpose wrap" id="purpose" aria-labelledby="purpose-title">
-      <div class="purpose-heading"><p class="eyebrow">00 / PURPOSE</p><h2 id="purpose-title">Hachile<br>的宗旨<span class="section-dot">.</span></h2></div>
-      <div class="purpose-body">
+    <section class="directory wrap" id="directory" aria-labelledby="directory-title">
+      <header class="section-heading"><div><p class="section-kicker">枝叶</p><h2 id="directory-title">站点目录</h2></div><p>19 个站点，4 组分枝。<br>选择一个名字，去里面看看。</p></header>
+      <section class="branch" id="branch-about" aria-labelledby="branch-about-title">
+        <header class="branch-heading"><span class="branch-number">01</span><h3 id="branch-about-title">认识我</h3><p>名字、经历，以及正在做的事。</p></header>
+        <ul class="branch-sites">
+          <li><a class="site-link" href="https://hachile.org/"><span class="site-name">Hachile Portal<span class="site-arrow" aria-hidden="true">↗</span></span><span class="site-description">整个站群的门户。选择查看简历、个人主页，或进入更私人化的 Sky 世界。</span><span class="site-domain">hachile.org</span></a></li>
+          <li><a class="site-link" href="https://home.hachile.org/"><span class="site-name">Home<span class="site-arrow" aria-hidden="true">↗</span></span><span class="site-description">关于我、常用站点、运营的社群与联系方式，也可以在讨论区留言。</span><span class="site-domain">home.hachile.org</span></a></li>
+          <li><a class="site-link" href="https://cv.hachile.org/"><span class="site-name">CV<span class="site-arrow" aria-hidden="true">↗</span></span><span class="site-description">学历、研究经历、开发项目、竞赛与荣誉的正式履历展示。</span><span class="site-domain">cv.hachile.org</span></a></li>
+          <li><a class="site-link" href="https://research.hachile.org/"><span class="site-name">Research<span class="site-arrow" aria-hidden="true">↗</span></span><span class="site-description">科研与项目成果展示，涵盖数字孪生、计算机视觉、具身智能与 AI for Science。</span><span class="site-domain">research.hachile.org</span></a></li>
+        </ul>
+      </section>
+
+      <section class="branch" id="branch-work" aria-labelledby="branch-work-title">
+        <header class="branch-heading"><span class="branch-number">02</span><h3 id="branch-work-title">创作与项目</h3><p>写下的文字，做出来的东西。</p></header>
+        <ul class="branch-sites">
+          <li><a class="site-link" href="https://blog.hachile.org/"><span class="site-name">Blog<span class="site-arrow" aria-hidden="true">↗</span></span><span class="site-description">文章、课程笔记与思考的归档地。</span><span class="site-domain">blog.hachile.org</span></a></li>
+          <li><a class="site-link" href="https://news.hachile.org/"><span class="site-name">HACH News<span class="site-arrow" aria-hidden="true">↗</span></span><span class="site-description">AI 早报与 HACH 日报的每日归档，按栏目和日期阅读，支持文字条目与日报长图。</span><span class="site-domain">news.hachile.org</span></a></li>
+          <li><a class="site-link" href="https://dev.hachile.org/"><span class="site-name">Dev<span class="site-arrow" aria-hidden="true">↗</span></span><span class="site-description">开发项目展示：从工具、模拟器到地图与智能系统。</span><span class="site-domain">dev.hachile.org</span></a></li>
+          <li><a class="site-link" href="https://gallery.hachile.org/"><span class="site-name">Gallery<span class="site-arrow" aria-hidden="true">↗</span></span><span class="site-description">图像、创作与收藏构成的小型视觉档案。</span><span class="site-domain">gallery.hachile.org</span></a></li>
+          <li><a class="site-link" href="https://tools.hachile.org/"><span class="site-name">Tools<span class="site-arrow" aria-hidden="true">↗</span></span><span class="site-description">常用在线工具与推荐资源的快捷入口。</span><span class="site-domain">tools.hachile.org</span></a></li>
+        </ul>
+      </section>
+
+      <section class="branch" id="branch-community" aria-labelledby="branch-community-title">
+        <header class="branch-heading"><span class="branch-number">03</span><h3 id="branch-community-title">社群与兴趣</h3><p>和朋友们相遇的地方。</p></header>
+        <ul class="branch-sites">
+          <li><a class="site-link" href="https://groups.hachile.org/"><span class="site-name">Groups<span class="site-arrow" aria-hidden="true">↗</span></span><span class="site-description">校园与兴趣社群档案，以及重点社群的独立展览。</span><span class="site-domain">groups.hachile.org</span></a></li>
+          <li><a class="site-link" href="https://bot.hachile.org/"><span class="site-name">Bot Lab<span class="site-arrow" aria-hidden="true">↗</span></span><span class="site-description">小五、Ponylonia 与 Hachile 等 QQ 机器人的展示空间。</span><span class="site-domain">bot.hachile.org</span></a></li>
+          <li><a class="site-link" href="https://sky.hachile.org/"><span class="site-name">Sky<span class="site-arrow" aria-hidden="true">↗</span></span><span class="site-description">以小马国地图展开的个人主题站，认识 Pegasus Bluie 的世界。</span><span class="site-domain">sky.hachile.org</span></a></li>
+          <li><a class="site-link" href="https://pony.hachile.org/"><span class="site-name">Pony<span class="site-arrow" aria-hidden="true">↗</span></span><span class="site-description">天蓝晨风 Skyblue Mornbreeze 的小马个人主页，介绍自己、创作和喜欢的音乐。</span><span class="site-domain">pony.hachile.org</span></a></li>
+          <li><a class="site-link" href="https://bronymap.hachile.org/"><span class="site-name">Brony Map<span class="site-arrow" aria-hidden="true">↗</span></span><span class="site-description">以隐私保护为前提，探索同城小马迷分布的地图项目。</span><span class="site-domain">bronymap.hachile.org</span></a></li>
+          <li><a class="site-link" href="https://furpony.hachile.org/"><span class="site-name">Furpony Institute<span class="site-arrow" aria-hidden="true">↗</span></span><span class="site-description">研究 Furry 与 Brony 文化异同及关系的三语博客，欢迎文化观察、文章投稿与讨论。</span><span class="site-domain">furpony.hachile.org</span></a></li>
+        </ul>
+      </section>
+
+      <section class="branch" id="branch-archive" aria-labelledby="branch-archive-title">
+        <header class="branch-heading"><span class="branch-number">04</span><h3 id="branch-archive-title">专题与档案</h3><p>留下来，留给以后再看。</p></header>
+        <ul class="branch-sites">
+          <li><a class="site-link" href="https://tj.hachile.org/"><span class="site-name">同济账号证明<span class="site-arrow" aria-hidden="true">↗</span></span><span class="site-description">通过同济统一身份认证生成匿名证明码，或验证收到的证明码；认证待学校批准后开放。</span><span class="site-domain">tj.hachile.org</span></a></li>
+          <li><a class="site-link" href="https://ghc.hachile.org/"><span class="site-name">GHC<span class="site-arrow" aria-hidden="true">↗</span></span><span class="site-description">围绕同济大学国豪书院的故事、资料与专题记录。</span><span class="site-domain">ghc.hachile.org</span></a></li>
+          <li><a class="site-link" href="https://ponylonia.hachile.org/"><span class="site-name">Ponylonia<span class="site-arrow" aria-hidden="true">↗</span></span><span class="site-description">从机器马 Bot 出发，探索学业、生活和网络社交的个人穿越系统。</span><span class="site-domain">ponylonia.hachile.org</span></a></li>
+          <li><a class="site-link" href="https://old.hachile.org/"><span class="site-name">Old Hachile<span class="site-arrow" aria-hidden="true">↗</span></span><span class="site-description">旧版个人站点与早期内容的存档入口。</span><span class="site-domain">old.hachile.org</span></a></li>
+        </ul>
+      </section>
+      <p class="directory-note">你正在 site.hachile.org。这里收录网站的介绍与入口，内容由各个站点继续生长。</p>
+    </section>
+
+    <section class="purpose" id="purpose" aria-labelledby="purpose-title">
+      <div class="purpose-inner wrap">
+        <header class="purpose-heading"><p class="section-kicker">根</p><h2 id="purpose-title">为什么<br>保持连接。</h2><p class="purpose-caption">Hachile 的宗旨</p><img src="./assets/roots.svg" width="360" height="300" loading="lazy" alt="" class="root-art"></header>
+        <div class="purpose-body">
         <p class="purpose-lead"><strong>10+</strong>个网络身份，<strong>100+</strong>个网络社群，<strong>1000+</strong>个网络好友，<strong>10000+</strong>覆盖人群，我需要一个统一的系统来理清我的网络身份</p>
         <p>我享受这种连接的过程，从小到大，无论是在班级建立学生组织的尝试，还是小天才手表群聊里的民主实践，我都喜欢把不同社群的人们连接起来，让信息流动</p>
         <p>连续性也是 Hachile 的宗旨。从小到大，我和许多朋友、同学失去了联系；我希望大家能随时重新找到彼此的联系方式。朋友有时只同行几个月，早晚会分离，所以我建立这些社群，让大家仍有地方相聚、聊天，让一段关系有机会一直延续下去。</p>
         <p>另外我也在将自己不断数字化，让自己的信息触手以扁平化的形式抵达互联网的各个角落</p>
         <p class="purpose-signoff">我无处不在我无所不知</p>
+        </div>
       </div>
     </section>
 
-    <section class="directory wrap" id="directory" aria-labelledby="directory-title">
-      <div class="section-heading"><p class="eyebrow">01 / DIRECTORY</p><h2 id="directory-title">站点目录<span class="section-dot">.</span></h2><p>按用途浏览目前可访问的 Hachile 站点。每张卡片都直接通往对应网站。</p></div>
-
-      <div class="group-heading"><span>01 — 起点与自我介绍</span><p>从这里认识我</p></div>
-      <div class="site-grid">
-        <a class="site-card feature" href="https://hachile.org/"><span class="card-top"><span class="card-icon">⌂</span><span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-type">THE FRONT DOOR</span><strong>Hachile Portal</strong><span class="card-description">整个站群的门户。选择查看简历、个人主页，或进入更私人化的 Sky 世界。</span><span class="card-domain">hachile.org</span></a>
-        <a class="site-card" href="https://home.hachile.org/"><span class="card-top"><span class="card-icon">◈</span><span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-type">PERSONAL HOMEPAGE</span><strong>Home</strong><span class="card-description">关于我、常用站点、运营的社群与联系方式，也可以在讨论区留言。</span><span class="card-domain">home.hachile.org</span></a>
-        <a class="site-card" href="https://cv.hachile.org/"><span class="card-top"><span class="card-icon">▤</span><span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-type">CURRICULUM VITAE</span><strong>CV</strong><span class="card-description">学历、研究经历、开发项目、竞赛与荣誉的正式履历展示。</span><span class="card-domain">cv.hachile.org</span></a>
-        <a class="site-card" href="https://research.hachile.org/"><span class="card-top"><span class="card-icon">⌕</span><span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-type">RESEARCH & PROJECTS</span><strong>Research</strong><span class="card-description">科研与项目成果展示，涵盖数字孪生、计算机视觉、具身智能与 AI for Science。</span><span class="card-domain">research.hachile.org</span></a>
-      </div>
-
-      <div class="group-heading"><span>02 — 创作与项目</span><p>写作、开发与视觉收藏</p></div>
-      <div class="site-grid">
-        <a class="site-card" href="https://blog.hachile.org/"><span class="card-top"><span class="card-icon">✎</span><span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-type">WORDS & NOTES</span><strong>Blog</strong><span class="card-description">文章、课程笔记与思考的归档地。</span><span class="card-domain">blog.hachile.org</span></a>
-        <a class="site-card" href="https://news.hachile.org/"><span class="card-top"><span class="card-icon">▤</span><span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-type">DAILY AI DIGEST</span><strong>HACH News</strong><span class="card-description">AI 早报与 HACH 日报的每日归档，按栏目和日期阅读，支持文字条目与日报长图。</span><span class="card-domain">news.hachile.org</span></a>
-        <a class="site-card" href="https://dev.hachile.org/"><span class="card-top"><span class="card-icon">&lt;/&gt;</span><span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-type">BUILD & EXPERIMENT</span><strong>Dev</strong><span class="card-description">开发项目展示：从工具、模拟器到地图与智能系统。</span><span class="card-domain">dev.hachile.org</span></a>
-        <a class="site-card" href="https://gallery.hachile.org/"><span class="card-top"><span class="card-icon">▦</span><span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-type">VISUAL ARCHIVE</span><strong>Gallery</strong><span class="card-description">图像、创作与收藏构成的小型视觉档案。</span><span class="card-domain">gallery.hachile.org</span></a>
-        <a class="site-card" href="https://tools.hachile.org/"><span class="card-top"><span class="card-icon">⚙</span><span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-type">USEFUL LINKS</span><strong>Tools</strong><span class="card-description">常用在线工具与推荐资源的快捷入口。</span><span class="card-domain">tools.hachile.org</span></a>
-      </div>
-
-      <div class="group-heading"><span>03 — 社群与兴趣世界</span><p>人与人相遇的地方</p></div>
-      <div class="site-grid">
-        <a class="site-card" href="https://groups.hachile.org/"><span class="card-top"><span class="card-icon">◎</span><span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-type">COMMUNITY ARCHIVE</span><strong>Groups</strong><span class="card-description">校园与兴趣社群档案，以及重点社群的独立展览。</span><span class="card-domain">groups.hachile.org</span></a>
-        <a class="site-card" href="https://bot.hachile.org/"><span class="card-top"><span class="card-icon">◉</span><span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-type">AUTOMATION LAB</span><strong>Bot Lab</strong><span class="card-description">小五、Ponylonia 与 Hachile 等 QQ 机器人的展示空间。</span><span class="card-domain">bot.hachile.org</span></a>
-        <a class="site-card" href="https://sky.hachile.org/"><span class="card-top"><span class="card-icon">☁</span><span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-type">A DIFFERENT IDENTITY</span><strong>Sky</strong><span class="card-description">以小马国地图展开的个人主题站，认识 Pegasus Bluie 的世界。</span><span class="card-domain">sky.hachile.org</span></a>
-        <a class="site-card" href="https://pony.hachile.org/"><span class="card-top"><span class="card-icon">♡</span><span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-type">PONY PERSONA</span><strong>Pony</strong><span class="card-description">天蓝晨风 Skyblue Mornbreeze 的小马个人主页，介绍自己、创作和喜欢的音乐。</span><span class="card-domain">pony.hachile.org</span></a>
-        <a class="site-card" href="https://bronymap.hachile.org/"><span class="card-top"><span class="card-icon">⌖</span><span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-type">COMMUNITY MAP</span><strong>Brony Map</strong><span class="card-description">以隐私保护为前提，探索同城小马迷分布的地图项目。</span><span class="card-domain">bronymap.hachile.org</span></a>
-        <a class="site-card" href="https://furpony.hachile.org/"><span class="card-top"><span class="card-icon">∩</span><span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-type">CULTURE &amp; COMMUNITY</span><strong>Furpony Institute</strong><span class="card-description">研究 Furry 与 Brony 文化异同及关系的三语博客，欢迎文化观察、文章投稿与讨论。</span><span class="card-domain">furpony.hachile.org</span></a>
-      </div>
-
-      <div class="group-heading"><span>04 — 专题与档案</span><p>特定主题，以及过去的版本</p></div>
-      <div class="site-grid site-grid-last">
-        <a class="site-card" href="https://tj.hachile.org/"><span class="card-top"><span class="card-icon">✓</span><span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-type">IDENTITY PROOF</span><strong>同济账号证明</strong><span class="card-description">通过同济统一身份认证生成匿名证明码，或验证收到的证明码；认证待学校批准后开放。</span><span class="card-domain">tj.hachile.org</span></a>
-        <a class="site-card" href="https://ghc.hachile.org/"><span class="card-top"><span class="card-icon">✦</span><span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-type">CAMPUS STORIES</span><strong>GHC</strong><span class="card-description">围绕同济大学国豪书院的故事、资料与专题记录。</span><span class="card-domain">ghc.hachile.org</span></a>
-        <a class="site-card" href="https://ponylonia.hachile.org/"><span class="card-top"><span class="card-icon">✳</span><span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-type">BOT & WORLD</span><strong>Ponylonia</strong><span class="card-description">从机器马 Bot 出发，探索学业、生活和网络社交的个人穿越系统。</span><span class="card-domain">ponylonia.hachile.org</span></a>
-        <a class="site-card" href="https://old.hachile.org/"><span class="card-top"><span class="card-icon">↶</span><span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-type">PAST VERSIONS</span><strong>Old Hachile</strong><span class="card-description">旧版个人站点与早期内容的存档入口。</span><span class="card-domain">old.hachile.org</span></a>
-      </div>
-      <p class="directory-note">本站为 site.hachile.org。目录仅列出目前可正常访问的其他展示站点；未上线的预留域名与仅供程序调用的接口未作为网页入口收录。</p>
-    </section>
-
-    <section class="timeline-section" id="changelog" aria-labelledby="changelog-title"><div class="wrap">
-      <div class="section-heading"><p class="eyebrow">02 / CHANGELOG</p><h2 id="changelog-title">更新日志<span class="section-dot">.</span></h2><p>以下记录复制自 <a href="https://home.hachile.org/#changelog">Home 的 Changelog</a>，按版本从新到旧排列。</p></div>
-      <div class="timeline">
+    <section class="timeline-section wrap" id="changelog" aria-labelledby="changelog-title">
+      <header class="section-heading"><div><p class="section-kicker">年轮</p><h2 id="changelog-title">更新日志</h2></div><div class="history-note"><img src="./assets/rings.svg" width="84" height="84" loading="lazy" alt=""><p>站群的生长记录<br>与 <a href="https://home.hachile.org/#changelog">Home</a> 同步</p></div></header>
+      <div class="timeline recent-releases">
+        <div class="release"><div><strong>v1.10.16</strong><time datetime="2026-11-23">2026 / 11 / 23</time></div><div><h4>Site 树主题改版</h4><p>以植物手记风格重做 site.hachile.org，加入可点击的树形分组、枝条式站点目录与年轮更新日志，保留全部站点入口和宗旨原文，适配手机与键盘操作。</p></div></div>
         <div class="release"><div><strong>v1.10.15</strong><time datetime="2026-11-22">2026 / 11 / 22</time></div><div><h4>Dev 更新 TapLoop 轻循</h4><p>在 dev.hachile.org 将 Tongji TapLoop 的空仓库占位更新为 Android 点击辅助工具介绍，加入真实界面截图，同步中英文文案并刷新项目 Star 排序。</p></div></div>
         <div class="release"><div><strong>v1.10.14</strong><time datetime="2026-11-22">2026 / 11 / 22</time></div><div><h4>新增济莫聚餐群</h4><p>在 groups.hachile.org 的校园与兴趣分类加入济莫聚餐群 1059104967，分类增至 34 个，目录增至 109 个 QQ 群，网络社群总数更新为 113 个。</p></div></div>
         <div class="release"><div><strong>v1.10.13</strong><time datetime="2026-11-22">2026 / 11 / 22</time></div><div><h4>Dev 项目展示重制</h4><p>重制 dev.hachile.org 的项目展示，使用项目截图与专属封面；调整项目名单，取消 IASR 置顶，并在每次发布时更新 GitHub Star、按数量排序。保留中英文切换与手机适配。</p></div></div>
         <div class="release"><div><strong>v1.10.12</strong><time datetime="2026-11-20">2026 / 11 / 20</time></div><div><h4>CV 补充采访报道与项目源码</h4><p>在 cv.hachile.org 增加两篇采访与报道入口，为数字孪生、IASR、AegisDrive、座椅压力分析、高校教师信息系统和锂枝晶模拟项目补充 GitHub 链接，同步中英文页面。</p></div></div>
+      </div>
+      <details class="history"><summary>翻看更早的年轮<span aria-hidden="true">+</span></summary><div class="timeline">
         <div class="release"><div><strong>v1.10.11</strong><time datetime="2026-11-20">2026 / 11 / 20</time></div><div><h4>Tools 增加站内搜索和学习资源</h4><p>将 Bing 搜索改为站内工具筛选，更新导航图标，并收录编程、人工智能、科研与校园开发资源。</p></div></div>
         <div class="release"><div><strong>v1.10.10</strong><time datetime="2026-11-20">2026 / 11 / 20</time></div><div><h4>开发项目入口接入 Forkfolio</h4><p>将 Home 首页的 Dev 快捷入口指向 gpddev.forkfolio.dev，并在个人站点中新增 Forkfolio 卡片，同步中英文和手机版。</p></div></div>
         <div class="release"><div><strong>v1.10.9</strong><time datetime="2026-11-19">2026 / 11 / 19</time></div><div><h4>CV 补充大一综合成绩排名</h4><p>在 cv.hachile.org 的个人信息中补充大一阶段学院排名前5%、专业排名前10%，并同步英文版。</p></div></div>
@@ -183,10 +208,15 @@
         <div class="release"><div><strong>v1.2.0</strong><time datetime="2026-09-24">2026 / 09 / 24</time></div><div><h4>首页布局调整</h4><p>精简导航与常用站点展示，放大首页头像，并把更新日志移至讨论区下方。</p></div></div>
         <div class="release"><div><strong>v1.1.0</strong><time datetime="2026-09-23">2026 / 09 / 23</time></div><div><h4>双语界面与站内讨论区</h4><p>更名为 Gunpowder Central，增加亮/暗模式、英文页面、图标与站内讨论区。</p></div></div>
         <div class="release"><div><strong>v1.0.0</strong><time datetime="2026-09-23">2026 / 09 / 23</time></div><div><h4>第一个正式版</h4><p>Hachile.org 个人站群的第一个正式版。Home 采用深色文档式布局，汇总个人介绍、站点导航、常用资源、社群资料、联系方式和讨论入口。</p></div></div>
-      </div><p class="archive-note">最早的版本已转移至 <a href="http://old.hachile.org/">old.hachile.org</a>。</p>
-    </div></section>
+      </div></details>
+      <p class="archive-note">最早的版本留在 <a href="http://old.hachile.org/">old.hachile.org</a>。</p>
+    </section>
   </main>
 
-  <footer class="site-footer"><div class="wrap footer-inner"><span class="footer-brand">THE HACHILE PROJECT<span class="period">.</span></span><span>独立站点 · 保持连接</span><a href="https://hachile.org/">返回门户 ↗</a></div></footer>
+  <footer class="site-footer wrap">
+    <div><a class="footer-brand" href="#main">The Hachile Project</a><p>让信息流动，让关系延续。</p></div>
+    <a href="https://hachile.org/">返回 Hachile 门户 <span aria-hidden="true">↗</span></a>
+    <span class="footer-date">始于 2026</span>
+  </footer>
 </body>
 </html>
