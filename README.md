@@ -1,6 +1,6 @@
 # The Hachile Project
 
-<div align="center"><img alt="Checks: browser verified" src="https://img.shields.io/badge/checks-browser%20verified-blue"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green"><img alt="Version: 1.12.2" src="https://img.shields.io/badge/version-1.12.2-lightgrey"><img alt="Language: HTML and CSS" src="https://img.shields.io/badge/language-HTML%20%2F%20CSS-orange"></div>
+<div align="center"><img alt="Checks: browser verified" src="https://img.shields.io/badge/checks-browser%20verified-blue"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green"><img alt="Version: 1.13" src="https://img.shields.io/badge/version-1.13-lightgrey"><img alt="Language: HTML and CSS" src="https://img.shields.io/badge/language-HTML%20%2F%20CSS-orange"></div>
 
 [访问网站](https://site.hachile.org/)
 
@@ -16,7 +16,7 @@
 
 这是 Hachile 站群的目录页，以一棵树串联个人身份、创作、社群和档案。纸色底纹、原创植物线稿和分枝式目录构成页面主体，静态页面托管在 GitHub Pages。
 
-- **枝叶**：21 个站点按四组分枝排列，树上的分组文字可直接跳转到相应目录。
+- **枝叶**：22 个站点按四组分枝排列，树上的分组文字可直接跳转到相应目录。
 - **根**：保留 Hachile 关于身份、连接、连续性与数字化的宗旨。
 - **年轮**：展示最近五次更新，使用原生折叠区域保留全部历史日志。
 
